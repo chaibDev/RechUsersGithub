@@ -1,0 +1,30 @@
+h1{
+    font-size: 20px;
+    width: auto;
+    border: solid 2px rgb(38, 224, 168);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(38, 224, 78);
+}
+#output {
+    font-size: 20px;
+    width: auto;
+    border: solid 2px rgb(38, 224, 168);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(38, 224, 78);
+}
+input{
+    font-size: 20px;
+    width: auto;
+    border: solid 2px rgb(38, 224, 168);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: blue;
+    background-color: rgb(38, 224, 78);
+}
