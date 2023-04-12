@@ -15,7 +15,7 @@ h1{
     padding: 10px;
     margin: 10px;
     text-align: center;
-    color: blue;
+    color: rgb(214, 10, 20);
     background-color: rgb(38, 224, 78);
 }
 input{
@@ -27,4 +27,14 @@ input{
     text-align: center;
     color: blue;
     background-color: rgb(38, 224, 78);
+}
+button{
+    font-size: 20px;
+    width: auto;
+    border: solid 2px rgb(163, 209, 56);
+    border: radius 50px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: lightseagreen;
 }

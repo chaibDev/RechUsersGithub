@@ -13,8 +13,8 @@
 </head>
 <body>
    <marquee><h1>Recherche des Utilisateurs Github</h1></marquee>
-<input type="text" name="champ" id="champ" placeholder="User ?">
-<button id="btn"> GET Info</button>
+<input type="text" name="champ" id="champ" placeholder="Pseudo Utilisateur ?">
+<button id="btn"> Cliquez pour Infos</button>
 
 <div id="output"></div>
 
@@ -26,7 +26,7 @@ btn.onclick = () => {
     .then(response => response.json())
     .then(data => {
        output.textContent = "";
-       output.textContent = `Compte de ${data.name}`;
+       output.textContent = `Compte de  ${data.name} `;
     const img = document.createElement("img");
      img.src = data.avatar_url; 
        img.width ="100";
