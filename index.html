@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Utilisateurs Github</title>
+
+
+
+
+</head>
+<body>
+    <h1>Recherche des Utilisateurs Github</h1>
+<input type="text" id="champ" placeholder="User ?">
+<button id="btn"> GET Info</button>
+
+<div id="output"></div>
+
+
+<script>
+    const champ = document.getElementById("champ");
+btn.onclick = () => {
+    fetch("https://api.github.com/users/"+champ.value)
+    .then(response => response.json())
+    .then(data => {
+       output.textContent = "";
+       output.textContent = `Compte de ${data.name}`;
+    const img = document.createElement("img");
+     img.src = data.avatar_url; 
+       img.width ="100";
+       output.appendChild(img);
+
+    })
+
+}
+</script>
+</body>
+</html>
